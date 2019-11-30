@@ -1,0 +1,12 @@
+.bg {
+    background-image: url('../../assets/images/menu.jpg');
+    height: 597px;
+    width: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .white-font {
+    color: white;
+  }
+  

@@ -1,0 +1,57 @@
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="row bg">
+        <div class="col-md-5 col-sm-5 col-xs-12 mt-5">
+            <h1 class="white-font" style="text-align: center">Book your Table</h1>
+            <form class="">
+                <div class="form-group mt-4">
+                    <label class="white-font" for="table">Select Table No</label>
+                    <select class="form-control" name="table" id="table">
+                        <option value="Family">Family</option>
+                        <option value="Couple">Couple</option>
+                        <option value="Individual">Individual</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="white-font" for="category">No Of Tables</label>
+                    <input type="number" name="" id="" class="form-control" placeholder="No of Tables" min="1">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger">Book Table</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <h1 class="white-font" style="text-align: center;color:yellow">Table List</h1>
+            <div class="card mt-5">
+                <div class="card-header text-center pb-2">
+                    <h3>List of Tables</h3>
+                </div>
+                <div class="card-body text-center">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sr.No</th>
+                                <th scope="col">Table Type</th>
+                                <th scope="col">Count</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>single</td>
+                            <td>2</td>
+                            <td>
+                                <button type="submit" class="btn btn-info btn-md mr-2">Edit</button>
+                                <button type="submit" class="btn btn-danger btn-md">Danger</button>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
